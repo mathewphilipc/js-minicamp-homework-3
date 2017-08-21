@@ -130,6 +130,7 @@ function addCalculateDiscountPriceMethod(storeItem) {
     var newPrice = storeItem.price - discount;
     return newPrice;
   };
+  return storeItem;
   //add a method to the storeItem object called 'calculateDiscountPrice'
   //this method should multiply the storeItem's 'price' and 'discountPercentage' to get the discount
   //the method then subtracts the discount from the price and returns the discounted price
